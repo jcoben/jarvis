@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jarvis-deployment
+  labels:
+    app: jarvis
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: jarvis
+  template:
+    metadata:
+      labels:
+        app: jarvis
+    spec:
+      containers:
+      - name: jarvis
+        image: jcoben/jarvis:v2
+        ports:
+        - containerPort: 80
+

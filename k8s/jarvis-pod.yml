@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jarvis
+spec:
+  containers:
+  - name: jarvis
+    image: jarvis:v2
+    ports:
+    - containerPort: 80
