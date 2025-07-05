@@ -1,0 +1,174 @@
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: left middle;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.datePicker {
+    padding: 0.5vh;
+    width: 100%;
+    height: 6vh;
+    font-size: 2vh;
+    margin-left: 5vh;
+    border-width: 0.5vh;
+}
+
+.submitContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 4vh;
+    font-weight: bolder;
+    align-items: right;
+    justify-content: right;
+    margin: 1vh;
+    width: 78vh;
+}
+
+.historyContainer {
+    border: solid;
+    border-color: black;
+    width: 98vh;
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.inputLabel {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 25vh;
+    height: 6vh;
+}
+
+.inputContainer label {
+    display: inline-block;
+    line-height: 6vh;
+    width: 25vh;
+    height: 6vh;
+}
+
+.inputBox {
+    height: 6vh;
+    width: 52vh;
+    margin-right: 1vh;
+    border-width: 0.75vh;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    display: flex;
+    flex-direction: column;
+    width: 78vh;
+    height: 18vh;
+    margin: 1vh;
+}
+
+.checkItem {
+    vertical-align: center;
+    margin-right: 5vh;
+}
+
+.checkItem label {
+    display: block;
+    width: 100%;
+    margin-right: 5vh;
+}
+
+.checkItem input {
+    vertical-align: center;
+}
+
+.requestButton {
+    margin-left: 1vh;
+    margin-right: 1vh;
+    vertical-align: middle;
+    width: 10vh;
+    height: 6vh;
+}
+
+.requestSubmitButton {
+    width: 15vh;
+}
+
+.barGaugeContainer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    font-size: 4vh;
+    margin-bottom: 4vh;
+}
+
+.barGaugeContainer p {
+    margin: 0.5vh;
+    margin-right: 1vh;
+    line-height: 3.5vh;
+}
+
+.barGauge {
+    position: relative;
+    height: 5vh;
+    width: 80vh;
+    border: 0.25vh solid black;
+    overflow: hidden;
+}
+
+.noBarGauge {
+    visibility: hidden;
+}
+
+.left{
+    position:absolute;
+    height: 5vh;
+    left: 0vh;
+    top: 0px;
+    background-color: red;
+    z-index: 50;
+}
+
+.startLeft {
+    width: 10%;
+}
+
+.destLeft {
+    width: 80%;
+}
+
+.right{
+    position: absolute;
+    height: 5vh;
+    right: 0px;
+    top: 0px;
+    background-color: cornflowerblue;
+    z-index: 50;
+}
+
+.startRight {
+    width: 90%;
+}
+
+.destRight {
+    width: 20%;
+}
+
+.barGaugeText{
+    position: absolute;
+    height: 5vh;
+    font-size: 4vh;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+.historyLabel {
+    display: inline;
+}

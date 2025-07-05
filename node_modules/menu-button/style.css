@@ -1,0 +1,32 @@
+@import url("../../containers/App/themes.css");
+
+.button{
+    height: 100%;
+    /*enable-background:new 0 0 10 10;*/
+    & line{
+        fill: none;
+        stroke: var(--text-white);
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 1.5px;
+        transform-origin: center center;
+        transform: none;
+        transition: transform .2s ;
+    }
+}
+.topline{
+        transform: rotate(45deg) translateX(.22em);
+}
+.on{
+    & .topline{
+        transform: rotate(45deg) translateX(0.155em) translateY(0.15em);
+    }
+
+    & .middleline{
+        transform: rotateY(90deg);
+    }
+
+    & .bottomline{
+        transform: rotate(-45deg) translateX(0.145em) translateY(-0.15em);
+    }
+}

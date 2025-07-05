@@ -1,0 +1,94 @@
+.welcomeContainer {
+    display: table;
+    vertical-align: top;
+    text-align: center;
+    font-size: 3vh;
+    font-weight: bold;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    width: 100%;
+    height: 10vh;
+    background-color: whitesmoke;
+}
+
+.navHomeButton {
+    background-image: url("./images/home-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: table-cell;
+    padding: 0;
+    margin: 0 auto;
+    width: 5%;
+    height: 5%;
+    cursor: grab;
+}
+
+.accountContainer {
+    background-image: url("./images/account.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: table-cell;
+    text-align: right;
+    padding: 0;
+    margin: 0 auto;
+    width: 5%;
+    height: 5%;
+    cursor: grab;
+}
+
+.toolBar {
+    flex-direction: row;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    height: 5vh;
+    border-top: 0.25vh solid black;
+    border-bottom: 0.25vh solid black;
+}
+
+.toolBarButton {
+    height: 4vh !important;
+    margin: 0.25vh;
+    margin-left: 1vh !important;
+    background: transparent;
+    border-right: solid 0.25vh;
+    border-left: solid 0.25vh;
+    border-color: black;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 0;
+    background-position: 2% 0%;
+    background-size: 4vh;
+    background-repeat: no-repeat;
+    text-align: right;
+    margin-left: 0.5vh !important;
+    margin-right: 0.5vh !important;
+}
+
+.rideButton {
+    background-image: url("./images/car-icon.png") !important;
+    width: 16vh !important;
+}
+
+.scheduleButton {
+    background-image: url("./images/schedule-icon.png") !important;
+    width: 21vh !important;
+}
+
+.historyButton{
+    background-image: url("./images/history-icon.png") !important;
+    width: 14vh !important;
+}
+
+.toolBarButton:hover {
+    text-decoration: underline;
+}
+
+.selectedButton {
+    background-color: rgb(1, 87, 199);
+    text-decoration: underline;
+    font-weight: bolder;
+}

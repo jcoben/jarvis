@@ -1,0 +1,60 @@
+
+
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 8vh;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+    margin-top: 8vh;
+  }
+  
+  .explainContainer {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 1vh;
+  }
+  
+  .loginBox {
+    height: 10vh;
+    width: 80vh;
+    font-size: large;
+    border-radius: 4vh;
+    padding-left: 8vh;
+    margin: 1vh;
+    border-width: 1vh;
+  }
+
+  .footerContainer {
+    padding-top: 1vh;
+    display: flex;
+    font-size: small;
+    flex-direction: row;
+    align-items: bottom;
+    justify-content: bottom;
+    margin-top: 16vh;
+  }
+
+  .loginButton {
+    width: 25vh;
+    height: 10vh;
+    font-size: 4vh;
+  }
+
+  .footerButton {
+    width: 20vh;
+    height: 5vh;
+  }

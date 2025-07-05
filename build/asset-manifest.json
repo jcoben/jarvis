@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.edd4b91c.css",
+    "main.js": "/static/js/main.8badf32e.js",
+    "static/media/map.jpg": "/static/media/map.8b4e4c2e83529125516f.jpg",
+    "static/media/schedule-icon.png": "/static/media/schedule-icon.6ba9b6c809c71b7f64f7.png",
+    "index.html": "/index.html",
+    "static/media/home-icon.svg": "/static/media/home-icon.0a0b8c9e47cd811f1e32.svg",
+    "static/media/en-US.cjs": "/static/media/en-US.c3a6319ea4f219498e6f.cjs",
+    "static/media/account.svg": "/static/media/account.70108a83e7d7a341b022.svg",
+    "main.edd4b91c.css.map": "/static/css/main.edd4b91c.css.map",
+    "main.8badf32e.js.map": "/static/js/main.8badf32e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edd4b91c.css",
+    "static/js/main.8badf32e.js"
+  ]
+}

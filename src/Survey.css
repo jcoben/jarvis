@@ -1,0 +1,39 @@
+.surveyCheck {
+    float: left;
+    text-align: right;
+}
+
+.surveyRadios {
+    display: flex;
+    flex-direction: row;
+    font-size: 2vh;
+    font-weight: bolder;
+    align-items: center;
+    margin: 0vh;
+    width: 68vh;
+    height: 8vh;
+}
+
+.surveyRadio {
+    display: flex;
+    flex-direction: row;
+    width: 30vh;
+    padding: 2vh;
+}
+
+.surveyHeading {
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
+.surveyLine {
+    display: flex;
+    flex-direction: row;
+}
+
+.surveyItem {
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    padding-right: 2vh;
+}

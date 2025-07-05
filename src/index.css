@@ -1,0 +1,121 @@
+html,
+body {
+  background: linear-gradient(-40deg, #8fb3da 18%,#428fd0 48%,#3689ce 59%,#4378bf 100%);
+  padding: 0;
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+}
+
+a {
+  color: darkblue;
+  cursor: grab;
+}
+
+a:visited {
+  color: skyblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mainContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 100vh;
+}
+
+.required {
+  border-color: green
+}
+
+.error {
+  border-color: #FF0000;
+}
+
+.navContainer {
+  display: table;
+  font-size: 3vh;
+  font-weight: bold;
+  width: 90%;
+  height: 15vh;
+  vertical-align: center;
+}
+
+.contentContainer {
+  flex-direction: column;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  height: 90%;
+  width: 90%;
+}
+
+.separator {
+  width: 100vh;
+  margin: 0;
+}
+
+.smallSeparator {
+  width: 30vh;
+  margin-left: 1vh;
+  margin: 0;
+}
+
+input {
+  border-radius: 2vh;
+  font-size: 2vh;
+  border-color: lightblue;
+  background-color: whitesmoke;
+}
+
+input[type=button], button {
+  border-radius: 10vh;
+  border-color: lightblue;
+  cursor: grab;
+  border-width: 0.5vh;
+  border-style: groove;
+  background-color: cornflowerblue;
+  font-weight: normal;
+}
+
+.submitButton {
+  background-color: rgb(1, 87, 199) !important;
+  font-weight: bolder !important;
+}
+
+.submitButton:hover {
+    text-decoration: underline;
+}
+
+.cancelButton {
+  background-color: peachpuff;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  font-weight: normal;
+}
+
+.label {
+  color: darkgray;
+}
+
+label {
+  color: darkgray;
+}
+
+.helpLabel {
+  margin-bottom: 0;
+}

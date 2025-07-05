@@ -1,0 +1,16 @@
+.homeButton {
+    font-size: 4vh;
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    height: 30vh;
+}
+
+.mapContainer {
+    background-image: url("./images/map.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+    width: 100vh;
+}
+
